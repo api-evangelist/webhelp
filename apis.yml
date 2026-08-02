@@ -1,7 +1,25 @@
 aid: webhelp
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/webhelp.png
 name: Webhelp
-description: Webhelp is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Webhelp is a French customer-experience and business-process-outsourcing (BPO) company
+  founded in 2000 and headquartered in Paris, providing outsourced customer support, sales, back-office,
+  content moderation, and payment/collections services to global brands across many languages and geographies.
+  In 2023 Webhelp merged with Concentrix; the combined company operates under the Concentrix brand and the
+  standalone webhelp.com domain no longer resolves to a live website. Webhelp was surfaced in the API
+  Evangelist network as a portfolio company of Insight Partners. It is a services/BPO operator rather than
+  an API producer and publishes no public developer portal, OpenAPI definition, or client SDKs; the
+  enrichment pipeline found no public API surface to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/webhelp/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +27,27 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-notes: 'No public API surface. Domain webhelp.com registered (Google Domains NS) but no A record / no live
+  site as of 2026-07-21. Brand merged into Concentrix (2023).'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Customer Experience
+- BPO
+- Outsourcing
+- Contact Center
+- Customer Support
+- Business Services
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
