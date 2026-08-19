@@ -29,7 +29,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 x-notes: 'No public API surface. Domain webhelp.com registered (Google Domains NS) but no A record / no live
   site as of 2026-07-21. Brand merged into Concentrix (2023).'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
