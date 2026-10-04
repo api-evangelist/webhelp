@@ -52,7 +52,7 @@ tags:
 - BPO
 - Outsourcing
 - Contact Center
-- Customer-Support
+- Customer Support
 - Business Services
 tags_raw:
 - Company
@@ -62,6 +62,7 @@ tags_raw:
 - Contact Center
 - Customer Support
 - Business Services
+- Customer-Support
 apis: []
 maintainers:
 - FN: Kin Lane
